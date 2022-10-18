@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./images/pexels-pixabay-41949.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
+
+input{
+  width: 550px;
+  margin-left:310px;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #37378b;
+  border-radius: 5px;
+}
+.done{
+  /* padding: 20px; */
+  padding-left: 60px;
+  padding-bottom: 20px;
+  background-color: #0000;
+  /* grid-gap: 2fr; */
+}
+.ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 2px;
+  width: 150px;
+  height: 220px;
+  background-color: rgba(54, 78, 109, 0.733);
+  border: 1.5px solid rgba(65, 46, 53, 0.3);
+  box-sizing: border-box;
+  box-shadow: 8px 8px 20px rgba(7, 44, 89, 0.15);
+  border-radius: 16px;
+  color: aliceblue;
+  transition: ease-in-out 10ms;
+  }
+  .ready:hover{
+    transform: scale(1.1);
+
+  }
+  .ready h5{
+    font-size: 12px;
+    padding-bottom: 20%;
+  }
+  .ready h4{
+    font-size: 15px;
+    padding-bottom: 40%; 
+  }
+  .ready p{
+    font-size: 13px;
+  }
+  .the {
+    display: grid;
+    grid-template-columns: repeat(5,0.5fr);
+    justify-content: space-evenly;
+    padding: 100px;
+  } 
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
